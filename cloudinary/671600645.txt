@@ -1,0 +1,442 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 62b90eb4-27cc-4d64-8f0b-f30314bb4580@1.worker-org-db8cd8d97-dq85v.gce-production-1
+version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
+instance: travis-job-c0788bf9-5914-4347-9d47-e0b9aa97d92c travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 5.902525686s
+travis_fold:end:worker_info[0Ktravis_time:start:0139d955[0Ktravis_time:end:0139d955:start=1586175324298811001,finish=1586175324442127616,duration=143316615,event=no_world_writable_dirs[0Ktravis_time:start:03ece12e[0Ktravis_time:end:03ece12e:start=1586175324444947736,finish=1586175324447977053,duration=3029317,event=setup_filter[0Ktravis_time:start:1ac1604e[0Ktravis_time:end:1ac1604e:start=1586175324452564595,finish=1586175324460400288,duration=7835693,event=agent[0Ktravis_time:start:0a56ed58[0Ktravis_time:end:0a56ed58:start=1586175324462913946,finish=1586175324464720501,duration=1806555,event=check_unsupported[0Ktravis_time:start:129f6d3a[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build dist: xenial
+Build id: 671600644
+Job id: 671600645
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: f65a8dc88
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:129f6d3a:start=1586175324467473182,finish=1586175324475887555,duration=8414373,event=show_system_info[0Ktravis_time:start:04254d60[0Ktravis_time:end:04254d60:start=1586175324479359662,finish=1586175324498645133,duration=19285471,event=rm_riak_source[0Ktravis_time:start:18ca5d86[0Ktravis_time:end:18ca5d86:start=1586175324503398200,finish=1586175324509834535,duration=6436335,event=fix_rwky_redis[0Ktravis_time:start:0786aa04[0Ktravis_time:end:0786aa04:start=1586175324513582256,finish=1586175324985274537,duration=471692281,event=wait_for_network[0Ktravis_time:start:21109273[0Ktravis_time:end:21109273:start=1586175324989388898,finish=1586175325204222082,duration=214833184,event=update_apt_keys[0Ktravis_time:start:27e810a2[0Ktravis_time:end:27e810a2:start=1586175325208239223,finish=1586175325262090885,duration=53851662,event=fix_hhvm_source[0Ktravis_time:start:0d0d250c[0Ktravis_time:end:0d0d250c:start=1586175325266190216,finish=1586175325268851075,duration=2660859,event=update_mongo_arch[0Ktravis_time:start:06611010[0Ktravis_time:end:06611010:start=1586175325272616946,finish=1586175325314275008,duration=41658062,event=fix_sudo_enabled_trusty[0Ktravis_time:start:01ad101d[0Ktravis_time:end:01ad101d:start=1586175325318502840,finish=1586175325320758274,duration=2255434,event=update_glibc[0Ktravis_time:start:005f575e[0Ktravis_time:end:005f575e:start=1586175325324357942,finish=1586175325331964108,duration=7606166,event=clean_up_path[0Ktravis_time:start:232d2d1c[0Ktravis_time:end:232d2d1c:start=1586175325335711824,finish=1586175325343404416,duration=7692592,event=fix_resolv_conf[0Ktravis_time:start:055eb3ee[0Ktravis_time:end:055eb3ee:start=1586175325346700265,finish=1586175325355624938,duration=8924673,event=fix_etc_hosts[0Ktravis_time:start:0042f18f[0Ktravis_time:end:0042f18f:start=1586175325359217341,finish=1586175325367419338,duration=8201997,event=fix_mvn_settings_xml[0Ktravis_time:start:062c73dd[0Ktravis_time:end:062c73dd:start=1586175325370836211,finish=1586175325379399633,duration=8563422,event=no_ipv6_localhost[0Ktravis_time:start:01a3122a[0Ktravis_time:end:01a3122a:start=1586175325385315628,finish=1586175325388213495,duration=2897867,event=fix_etc_mavenrc[0Ktravis_time:start:09e0a528[0Ktravis_time:end:09e0a528:start=1586175325391816892,finish=1586175325395124457,duration=3307565,event=fix_wwdr_certificate[0Ktravis_time:start:0320cc10[0Ktravis_time:end:0320cc10:start=1586175325400549988,finish=1586175325424985483,duration=24435495,event=put_localhost_first[0Ktravis_time:start:0955cae5[0Ktravis_time:end:0955cae5:start=1586175325430008121,finish=1586175325433436917,duration=3428796,event=home_paths[0Ktravis_time:start:077a8bda[0Ktravis_time:end:077a8bda:start=1586175325439218649,finish=1586175325451610829,duration=12392180,event=disable_initramfs[0Ktravis_time:start:03d30640[0Ktravis_time:end:03d30640:start=1586175325455740321,finish=1586175325778055572,duration=322315251,event=disable_ssh_roaming[0Ktravis_time:start:01a1b8b1[0Ktravis_time:end:01a1b8b1:start=1586175325782124667,finish=1586175325784557429,duration=2432762,event=debug_tools[0Ktravis_time:start:18efac00[0Ktravis_time:end:18efac00:start=1586175325788027526,finish=1586175325791046426,duration=3018900,event=uninstall_oclint[0Ktravis_time:start:081aa4bf[0Ktravis_time:end:081aa4bf:start=1586175325797375004,finish=1586175325800507751,duration=3132747,event=rvm_use[0Ktravis_time:start:04a47416[0Ktravis_time:end:04a47416:start=1586175325804446762,finish=1586175325811979516,duration=7532754,event=rm_etc_boto_cfg[0Ktravis_time:start:04359e00[0Ktravis_time:end:04359e00:start=1586175325816090311,finish=1586175325819262908,duration=3172597,event=rm_oraclejdk8_symlink[0Ktravis_time:start:036a1fc8[0Ktravis_time:end:036a1fc8:start=1586175325824662524,finish=1586175325930010857,duration=105348333,event=enable_i386[0Ktravis_time:start:0dd63ec4[0Ktravis_time:end:0dd63ec4:start=1586175325934064978,finish=1586175325938954998,duration=4890020,event=update_rubygems[0Ktravis_time:start:11edec15[0Ktravis_time:end:11edec15:start=1586175325942271821,finish=1586175326744514127,duration=802242306,event=ensure_path_components[0Ktravis_time:start:1274d960[0Ktravis_time:end:1274d960:start=1586175326750907240,finish=1586175326753388751,duration=2481511,event=redefine_curl[0Ktravis_time:start:0442549c[0Ktravis_time:end:0442549c:start=1586175326757132025,finish=1586175326866138231,duration=109006206,event=nonblock_pipe[0Ktravis_time:start:040061dc[0Ktravis_time:end:040061dc:start=1586175326869760311,finish=1586175332898142333,duration=6028382022,event=apt_get_update[0Ktravis_time:start:1138f44e[0Ktravis_time:end:1138f44e:start=1586175332902010278,finish=1586175332904632950,duration=2622672,event=deprecate_xcode_64[0Ktravis_time:start:2c0376c8[0Ktravis_time:end:2c0376c8:start=1586175332908467170,finish=1586175335334990012,duration=2426522842,event=update_heroku[0Ktravis_time:start:06088e2a[0Ktravis_time:end:06088e2a:start=1586175335338616824,finish=1586175335340909184,duration=2292360,event=shell_session_update[0Ktravis_time:start:30bdbb17[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:30bdbb17:start=1586175335344438031,finish=1586175337632410208,duration=2287972177,event=set_docker_mtu[0Ktravis_time:start:00c4ba41[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:00c4ba41:start=1586175337636481088,finish=1586175337700739500,duration=64258412,event=resolvconf[0Ktravis_time:start:000d0374[0Ktravis_time:end:000d0374:start=1586175337712023708,finish=1586175337849228867,duration=137205159,event=maven_central_mirror[0Ktravis_time:start:071d2246[0Ktravis_time:end:071d2246:start=1586175337854083381,finish=1586175337949172683,duration=95089302,event=maven_https[0Ktravis_time:start:04c5e0e6[0Ktravis_time:end:04c5e0e6:start=1586175337952969034,finish=1586175337955251203,duration=2282169,event=fix_ps4[0Ktravis_fold:start:install_chrome[0K$ export CHROME_SOURCE_URL=https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb
+[33;1mInstalling Google Chrome stable[0m
+travis_time:start:148caee0[0K$ wget --no-verbose -O /tmp/$(basename $CHROME_SOURCE_URL) $CHROME_SOURCE_URL
+2020-04-06 12:15:38 URL:https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb [63635666/63635666] -> "/tmp/google-chrome-stable_current_amd64.deb" [1]
+travis_time:end:148caee0:start=1586175338003241651,finish=1586175338374277628,duration=371035977,event=prepare[0K(Reading database ... 124189 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_current_amd64.deb ...
+Unpacking google-chrome-stable (80.0.3987.163-1) over (73.0.3683.86-1) ...
+Setting up google-chrome-stable (80.0.3987.163-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+travis_fold:end:install_chrome[0Ktravis_fold:start:install_firefox[0K[33;1mInstalling Firefox latest[0m
+$ export FIREFOX_SOURCE_URL='https://download.mozilla.org/?product=firefox-latest&lang=en-US&os=linux64'
+travis_time:start:0ceea0d8[0K$ wget --no-verbose -O /tmp/firefox-latest.tar.bz2 $FIREFOX_SOURCE_URL
+2020-04-06 12:15:47 URL:https://download-installer.cdn.mozilla.net/pub/firefox/releases/74.0.1/linux-x86_64/en-US/firefox-74.0.1.tar.bz2 [66785590/66785590] -> "/tmp/firefox-latest.tar.bz2" [1]
+travis_time:end:0ceea0d8:start=1586175346451749648,finish=1586175347406263117,duration=954513469,event=prepare[0K$ export PATH=${TRAVIS_HOME}/firefox-latest/firefox:$PATH
+travis_fold:end:install_firefox[0K$ firefox --version
+Mozilla Firefox 74.0.1
+travis_time:start:0658ad52[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:2e829d1c[0K$ git clone --depth=50 https://github.com/cloudinary/wdio-allure-ts.git cloudinary/wdio-allure-ts
+Cloning into 'cloudinary/wdio-allure-ts'...
+travis_time:end:2e829d1c:start=1586175356619711501,finish=1586175357274462613,duration=654751112,event=checkout[0K$ cd cloudinary/wdio-allure-ts
+travis_time:start:015434ac[0K$ git fetch origin +refs/pull/146/merge:
+From https://github.com/cloudinary/wdio-allure-ts
+ * branch            refs/pull/146/merge -> FETCH_HEAD
+travis_time:end:015434ac:start=1586175357278613936,finish=1586175357742338016,duration=463724080,event=checkout[0K$ git checkout -qf FETCH_HEAD
+travis_fold:end:git.checkout[0K
+travis_time:end:015434ac:start=1586175357278613936,finish=1586175357752423410,duration=473809474,event=checkout[0Ktravis_time:start:0e4168a0[0K
+[33;1mSetting environment variables from repository settings[0m
+$ export NPM_SECRET_KEY=[secure]
+$ export NPM_EMAIL=[secure]
+
+travis_time:end:0e4168a0:start=1586175357756408324,finish=1586175357763070316,duration=6661992,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:0421eaa7[0K$ nvm install 10
+Downloading and installing node v10.19.0...
+Downloading https://nodejs.org/dist/v10.19.0/node-v10.19.0-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.19.0 (npm v6.13.4)
+travis_time:end:0421eaa7:start=1586175358292059249,finish=1586175362013254225,duration=3721194976,event=setup[0Ktravis_fold:end:nvm.install[0K
+travis_fold:start:cache.1[0KSetting up build cache
+$ export CASHER_DIR=${TRAVIS_HOME}/.casher
+travis_time:start:05e5f9f0[0K$ Installing caching utilities
+travis_time:end:05e5f9f0:start=1586175363171652992,finish=1586175363281532915,duration=109879923,event=setup_casher[0Ktravis_time:start:11661996[0Ktravis_time:end:11661996:start=1586175363287491931,finish=1586175363290288401,duration=2796470,event=setup_casher[0Ktravis_time:start:076b736e[0Kattempting to download cache archive[0m
+[32;1mfetching PR.146/cache--linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-10.tgz[0m
+[32;1mfetching PR.146/cache-linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-10.tgz[0m
+[32;1mfetching PR.146/cache--node-10.tgz[0m
+[32;1mfetching master/cache--linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-10.tgz[0m
+[32;1mfetching master/cache-linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-10.tgz[0m
+[32;1mfetching master/cache--node-10.tgz[0m
+[31;1mcould not download cache[0m
+travis_time:end:076b736e:start=1586175363293922068,finish=1586175366186809099,duration=2892887031,event=setup_casher[0Ktravis_fold:end:cache.1[0K
+travis_fold:start:cache.npm[0K
+travis_time:start:17e489a0[0Ktravis_time:end:17e489a0:start=1586175366371667513,finish=1586175366374511904,duration=2844391,event=setup_cache[0Ktravis_time:start:195e66f0[0Kadding /home/travis/.npm to cache[0m
+travis_time:end:195e66f0:start=1586175366379709632,finish=1586175367948935418,duration=1569225786,event=setup_cache[0Ktravis_fold:end:cache.npm[0K$ node --version
+v10.19.0
+$ npm --version
+6.13.4
+$ nvm --version
+0.35.3
+
+travis_fold:start:install[0Ktravis_time:start:0f0e1f1c[0K$ npm install
+
+> fibers@4.0.2 install /home/travis/build/cloudinary/wdio-allure-ts/node_modules/fibers
+> node build.js || nodejs build.js
+
+`linux-x64-64-glibc` exists; testing
+Binary is fine; exiting
+
+> canvas@2.6.1 install /home/travis/build/cloudinary/wdio-allure-ts/node_modules/canvas
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[canvas] Success: "/home/travis/build/cloudinary/wdio-allure-ts/node_modules/canvas/build/Release/canvas.node" is installed via remote
+
+> core-js@3.6.4 postinstall /home/travis/build/cloudinary/wdio-allure-ts/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@3.0.2 postinstall /home/travis/build/cloudinary/wdio-allure-ts/node_modules/ejs
+> node --harmony ./postinstall.js
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 1108 packages from 640 contributors and audited 4325 packages in 17.786s
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 9 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:0f0e1f1c:start=1586175368701825921,finish=1586175387411182449,duration=18709356528,event=install[0Ktravis_fold:end:install[0Ktravis_fold:start:before_script[0Ktravis_time:start:11c69e61[0K$ npm run start:sampleApp &
+travis_time:end:11c69e61:start=1586175387416783818,finish=1586175387421005409,duration=4221591,event=before_script[0Ktravis_fold:end:before_script[0Ktravis_time:start:064a9048[0K$ npm test
+
+> wdio-allure-ts@1.2.1 start:sampleApp /home/travis/build/cloudinary/wdio-allure-ts
+> ws --spa src/test/sampleApp/index.html
+
+
+> wdio-allure-ts@1.2.1 test /home/travis/build/cloudinary/wdio-allure-ts
+> npm run compile && git diff --exit-code ./lib && npm run setChromeDriverVersion && wdio src/test/wdio.conf.js --suite regression
+
+Listening on [4mhttp://travis-job-c0788bf9-5914-4347-9d47-e0b9aa97d92c:8000[0m, [4mhttp://127.0.0.1:8000[0m, [4mhttp://10.20.255.117:8000[0m
+
+> wdio-allure-ts@1.2.1 compile /home/travis/build/cloudinary/wdio-allure-ts
+> npm run clean && npm run prettier && npm run tslint && tsc && cp -R src/helpers/ lib/helpers
+
+
+> wdio-allure-ts@1.2.1 clean /home/travis/build/cloudinary/wdio-allure-ts
+> rm -rf ./lib
+
+
+> wdio-allure-ts@1.2.1 prettier /home/travis/build/cloudinary/wdio-allure-ts
+> prettier --write 'src/**/*.ts'; prettier --write 'src/test/**/*.ts'
+
+src/commons/BrowserUtils.ts 514ms
+src/commons/EyesUtil.ts 49ms
+src/commons/Reporter.ts 69ms
+src/commons/TestUtils.ts 10ms
+src/enums/MouseButton.ts 4ms
+src/enums/SelectorType.ts 3ms
+src/enums/SpecialKeys.ts 5ms
+src/index.ts 6ms
+src/test/specs/AcceptAlertSpec.ts 5ms
+src/test/specs/AddValueSpec.ts 10ms
+src/test/specs/ClearValueSpec.ts 15ms
+src/test/specs/ClickActionsSpec.ts 8ms
+src/test/specs/DismissAlertSpec.ts 13ms
+src/test/specs/DoubleClickSpec.ts 14ms
+src/test/specs/ExecuteScriptSpec.ts 9ms
+src/test/specs/ExpectAlertTextSpec.ts 14ms
+src/test/specs/ExpectAttributeValueSpec.ts 26ms
+src/test/specs/ExpectCurrentUrlSpec.ts 4ms
+src/test/specs/ExpectNoAttributeValueSpec.ts 12ms
+src/test/specs/ExpectNumberOfElementsSpec.ts 11ms
+src/test/specs/ExpectTextSpec.ts 9ms
+src/test/specs/FindElementSpec.ts 8ms
+src/test/specs/GetAttributeSpec.ts 11ms
+src/test/specs/GetCssPropertySpec.ts 17ms
+src/test/specs/GetNumberOfElementsSpec.ts 6ms
+src/test/specs/GetTextSpec.ts 9ms
+src/test/specs/IsEnabledSpec.ts 9ms
+src/test/specs/NavigateToUrlSpec.ts 2ms
+src/test/specs/NotExistSpec.ts 8ms
+src/test/specs/NotVisibleSpec.ts 9ms
+src/test/specs/ScrollingIntoViewSpec.ts 6ms
+src/test/specs/ScrollToElementSpec.ts 11ms
+src/test/specs/SendKeysSpec.ts 10ms
+src/test/specs/SetCookieSpec.ts 22ms
+src/test/specs/SetValueToElementsSpec.ts 8ms
+src/test/specs/SwitchToFrameSpec.ts 9ms
+src/test/specs/TabsSpec.ts 7ms
+src/test/specs/TestUtilsSpec.ts 3ms
+src/test/specs/VerifyFilesInZipSpec.ts 15ms
+src/test/specs/WaitForEnabledSpec.ts 7ms
+src/test/specs/WaitUntilSpec.ts 9ms
+src/test/specs/WindowSizeSpec.ts 4ms
+src/test/TestHelper.ts 9ms
+src/test/specs/AcceptAlertSpec.ts 219ms
+src/test/specs/AddValueSpec.ts 14ms
+src/test/specs/ClearValueSpec.ts 13ms
+src/test/specs/ClickActionsSpec.ts 13ms
+src/test/specs/DismissAlertSpec.ts 14ms
+src/test/specs/DoubleClickSpec.ts 13ms
+src/test/specs/ExecuteScriptSpec.ts 17ms
+src/test/specs/ExpectAlertTextSpec.ts 18ms
+src/test/specs/ExpectAttributeValueSpec.ts 27ms
+src/test/specs/ExpectCurrentUrlSpec.ts 9ms
+src/test/specs/ExpectNoAttributeValueSpec.ts 20ms
+src/test/specs/ExpectNumberOfElementsSpec.ts 28ms
+src/test/specs/ExpectTextSpec.ts 28ms
+src/test/specs/FindElementSpec.ts 8ms
+src/test/specs/GetAttributeSpec.ts 8ms
+src/test/specs/GetCssPropertySpec.ts 14ms
+src/test/specs/GetNumberOfElementsSpec.ts 5ms
+src/test/specs/GetTextSpec.ts 4ms
+src/test/specs/IsEnabledSpec.ts 10ms
+src/test/specs/NavigateToUrlSpec.ts 4ms
+src/test/specs/NotExistSpec.ts 16ms
+src/test/specs/NotVisibleSpec.ts 15ms
+src/test/specs/ScrollingIntoViewSpec.ts 7ms
+src/test/specs/ScrollToElementSpec.ts 11ms
+src/test/specs/SendKeysSpec.ts 49ms
+src/test/specs/SetCookieSpec.ts 23ms
+src/test/specs/SetValueToElementsSpec.ts 19ms
+src/test/specs/SwitchToFrameSpec.ts 17ms
+src/test/specs/TabsSpec.ts 20ms
+src/test/specs/TestUtilsSpec.ts 10ms
+src/test/specs/VerifyFilesInZipSpec.ts 7ms
+src/test/specs/WaitForEnabledSpec.ts 7ms
+src/test/specs/WaitUntilSpec.ts 8ms
+src/test/specs/WindowSizeSpec.ts 4ms
+src/test/TestHelper.ts 6ms
+
+> wdio-allure-ts@1.2.1 tslint /home/travis/build/cloudinary/wdio-allure-ts
+> tslint -c tslint.json 'src/**/*.ts' -p ./ --fix
+
+
+> wdio-allure-ts@1.2.1 setChromeDriverVersion /home/travis/build/cloudinary/wdio-allure-ts
+> ./src/scripts/setChromeDriverVersion.sh
+
+Got latest chrome driver version 80.0.3987.106
+Set chromedriver version in .env to 80.0.3987.106
+
+Execution of 34 spec files started at 2020-04-06T12:16:39.107Z
+
+[0-2] RUNNING in chrome - /lib/test/specs/ClearValueSpec.js
+[0-3] RUNNING in chrome - /lib/test/specs/ClickActionsSpec.js
+[0-0] RUNNING in chrome - /lib/test/specs/AcceptAlertSpec.js
+[0-4] RUNNING in chrome - /lib/test/specs/DismissAlertSpec.js
+[0-1] RUNNING in chrome - /lib/test/specs/AddValueSpec.js
+[0-1] FAILED in chrome - /lib/test/specs/AddValueSpec.js
+[0-4] FAILED in chrome - /lib/test/specs/DismissAlertSpec.js
+[0-3] FAILED in chrome - /lib/test/specs/ClickActionsSpec.js
+[0-0] FAILED in chrome - /lib/test/specs/AcceptAlertSpec.js
+[0-2] PASSED in chrome - /lib/test/specs/ClearValueSpec.js
+[0-6] RUNNING in chrome - /lib/test/specs/ExecuteScriptSpec.js
+[0-5] RUNNING in chrome - /lib/test/specs/DoubleClickSpec.js
+[0-7] RUNNING in chrome - /lib/test/specs/ExpectAlertTextSpec.js
+[0-8] RUNNING in chrome - /lib/test/specs/ExpectAttributeValueSpec.js
+[0-8] FAILED in chrome - /lib/test/specs/ExpectAttributeValueSpec.js
+[0-9] RUNNING in chrome - /lib/test/specs/ExpectCurrentUrlSpec.js
+[0-6] PASSED in chrome - /lib/test/specs/ExecuteScriptSpec.js
+[0-9] FAILED in chrome - /lib/test/specs/ExpectCurrentUrlSpec.js
+[0-10] RUNNING in chrome - /lib/test/specs/ExpectNoAttributeValueSpec.js
+[0-11] RUNNING in chrome - /lib/test/specs/ExpectNumberOfElementsSpec.js
+[0-10] FAILED in chrome - /lib/test/specs/ExpectNoAttributeValueSpec.js
+[0-12] RUNNING in chrome - /lib/test/specs/ExpectTextSpec.js
+[0-12] FAILED in chrome - /lib/test/specs/ExpectTextSpec.js
+[0-13] RUNNING in chrome - /lib/test/specs/FindElementSpec.js
+[0-13] FAILED in chrome - /lib/test/specs/FindElementSpec.js
+[0-7] no alert opened
+[0-14] RUNNING in chrome - /lib/test/specs/GetAttributeSpec.js
+[0-7] PASSED in chrome - /lib/test/specs/ExpectAlertTextSpec.js
+[0-14] FAILED in chrome - /lib/test/specs/GetAttributeSpec.js
+[0-15] RUNNING in chrome - /lib/test/specs/GetCssPropertySpec.js
+[0-16] RUNNING in chrome - /lib/test/specs/GetNumberOfElementsSpec.js
+[0-17] RUNNING in chrome - /lib/test/specs/GetTextSpec.js
+[0-16] PASSED in chrome - /lib/test/specs/GetNumberOfElementsSpec.js
+[0-17] FAILED in chrome - /lib/test/specs/GetTextSpec.js
+[0-18] RUNNING in chrome - /lib/test/specs/IsEnabledSpec.js
+[0-19] RUNNING in chrome - /lib/test/specs/NavigateToUrlSpec.js
+[0-15] PASSED in chrome - /lib/test/specs/GetCssPropertySpec.js
+[0-18] FAILED in chrome - /lib/test/specs/IsEnabledSpec.js
+[0-19] FAILED in chrome - /lib/test/specs/NavigateToUrlSpec.js
+[0-20] RUNNING in chrome - /lib/test/specs/NotExistSpec.js
+[0-21] RUNNING in chrome - /lib/test/specs/NotVisibleSpec.js
+[0-22] RUNNING in chrome - /lib/test/specs/ScrollingIntoViewSpec.js
+[0-22] FAILED in chrome - /lib/test/specs/ScrollingIntoViewSpec.js
+[0-23] RUNNING in chrome - /lib/test/specs/ScrollToElementSpec.js
+[0-23] FAILED in chrome - /lib/test/specs/ScrollToElementSpec.js
+[0-24] RUNNING in chrome - /lib/test/specs/SendKeysSpec.js
+[0-24] FAILED in chrome - /lib/test/specs/SendKeysSpec.js
+[0-25] RUNNING in chrome - /lib/test/specs/SetCookieSpec.js
+[0-25] PASSED in chrome - /lib/test/specs/SetCookieSpec.js
+[0-26] RUNNING in chrome - /lib/test/specs/SetValueToElementsSpec.js
+[0-26] FAILED in chrome - /lib/test/specs/SetValueToElementsSpec.js
+[0-27] RUNNING in chrome - /lib/test/specs/SwitchToFrameSpec.js
+[0-27] FAILED in chrome - /lib/test/specs/SwitchToFrameSpec.js
+[0-28] RUNNING in chrome - /lib/test/specs/TabsSpec.js
+[0-28] FAILED in chrome - /lib/test/specs/TabsSpec.js
+[0-29] RUNNING in chrome - /lib/test/specs/TestUtilsSpec.js
+[0-29] PASSED in chrome - /lib/test/specs/TestUtilsSpec.js
+[0-30] RUNNING in chrome - /lib/test/specs/VerifyFilesInZipSpec.js
+[0-30] FAILED in chrome - /lib/test/specs/VerifyFilesInZipSpec.js
+[0-31] RUNNING in chrome - /lib/test/specs/WaitForEnabledSpec.js
+[0-31] FAILED in chrome - /lib/test/specs/WaitForEnabledSpec.js
+[0-32] RUNNING in chrome - /lib/test/specs/WaitUntilSpec.js
+[0-32] FAILED in chrome - /lib/test/specs/WaitUntilSpec.js
+[0-33] RUNNING in chrome - /lib/test/specs/WindowSizeSpec.js
+[0-33] PASSED in chrome - /lib/test/specs/WindowSizeSpec.js
+[0-20] PASSED in chrome - /lib/test/specs/NotExistSpec.js
+[0-21] PASSED in chrome - /lib/test/specs/NotVisibleSpec.js
+[0-11] PASSED in chrome - /lib/test/specs/ExpectNumberOfElementsSpec.js
+[0-5] PASSED in chrome - /lib/test/specs/DoubleClickSpec.js
+
+Spec Files:	 12 passed, 22 failed, 34 total (100% completed) in 00:03:20 
+
+npm ERR! Test failed.  See above for more details.
+travis_time:end:064a9048:start=1586175387432402322,finish=1586175600099527591,duration=212667125269,event=[0K[31;1mThe command "npm test" exited with 1.[0m
+travis_fold:start:cache.2[0Kstore build cache
+travis_time:start:2f63cac8[0Ktravis_time:end:2f63cac8:start=1586175600104187966,finish=1586175600107648794,duration=3460828,event=cache[0Ktravis_time:start:047859bc[0K[32;1mchanges detected, packing new archive[0m
+[32;1muploading PR.146/cache--linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-10.tgz[0m
+[32;1mcache uploaded[0m
+travis_time:end:047859bc:start=1586175600113189555,finish=1586175604452632654,duration=4339443099,event=cache[0Ktravis_fold:end:cache.2[0K
+
+Done. Your build exited with 1.

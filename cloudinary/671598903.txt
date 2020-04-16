@@ -1,0 +1,214 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 88d259e8-318e-41b4-ba0d-345ca30e1a9f@1.worker-org-676f4fdd9b-2nnjg.gce-production-2
+version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
+instance: travis-job-b0bfca90-71ea-462a-ac08-5536d3f55fde travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.081717767s
+travis_fold:end:worker_info[0Ktravis_time:start:0319ef3a[0Ktravis_time:end:0319ef3a:start=1586175065010031631,finish=1586175065147792750,duration=137761119,event=no_world_writable_dirs[0Ktravis_time:start:0428a8a0[0Ktravis_time:end:0428a8a0:start=1586175065150346547,finish=1586175065153198244,duration=2851697,event=setup_filter[0Ktravis_time:start:0316c812[0Ktravis_time:end:0316c812:start=1586175065158226350,finish=1586175065170386307,duration=12159957,event=agent[0Ktravis_time:start:0a96c16c[0Ktravis_time:end:0a96c16c:start=1586175065174493166,finish=1586175065176910730,duration=2417564,event=check_unsupported[0Ktravis_time:start:28e53f33[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build dist: xenial
+Build id: 671598902
+Job id: 671598903
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: f65a8dc88
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:28e53f33:start=1586175065180663672,finish=1586175065209399424,duration=28735752,event=show_system_info[0Ktravis_time:start:081a3b05[0Ktravis_time:end:081a3b05:start=1586175065226521204,finish=1586175065245513951,duration=18992747,event=rm_riak_source[0Ktravis_time:start:0242d52b[0Ktravis_time:end:0242d52b:start=1586175065249313417,finish=1586175065256118921,duration=6805504,event=fix_rwky_redis[0Ktravis_time:start:05283822[0Ktravis_time:end:05283822:start=1586175065259141820,finish=1586175065784507277,duration=525365457,event=wait_for_network[0Ktravis_time:start:197c44bc[0Ktravis_time:end:197c44bc:start=1586175065788689394,finish=1586175065960403425,duration=171714031,event=update_apt_keys[0Ktravis_time:start:281add27[0Ktravis_time:end:281add27:start=1586175065963893395,finish=1586175066012030386,duration=48136991,event=fix_hhvm_source[0Ktravis_time:start:0e2ab648[0Ktravis_time:end:0e2ab648:start=1586175066015872321,finish=1586175066018520912,duration=2648591,event=update_mongo_arch[0Ktravis_time:start:11f03a95[0Ktravis_time:end:11f03a95:start=1586175066022347275,finish=1586175066061005616,duration=38658341,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0cd30cc8[0Ktravis_time:end:0cd30cc8:start=1586175066064919424,finish=1586175066067528288,duration=2608864,event=update_glibc[0Ktravis_time:start:009a8f2a[0Ktravis_time:end:009a8f2a:start=1586175066071185457,finish=1586175066078409237,duration=7223780,event=clean_up_path[0Ktravis_time:start:1bf6c7c8[0Ktravis_time:end:1bf6c7c8:start=1586175066082090462,finish=1586175066089174942,duration=7084480,event=fix_resolv_conf[0Ktravis_time:start:3270bd04[0Ktravis_time:end:3270bd04:start=1586175066092513388,finish=1586175066100326965,duration=7813577,event=fix_etc_hosts[0Ktravis_time:start:0885fdfe[0Ktravis_time:end:0885fdfe:start=1586175066103846423,finish=1586175066111120981,duration=7274558,event=fix_mvn_settings_xml[0Ktravis_time:start:00e84127[0Ktravis_time:end:00e84127:start=1586175066115777621,finish=1586175066124300348,duration=8522727,event=no_ipv6_localhost[0Ktravis_time:start:00992346[0Ktravis_time:end:00992346:start=1586175066127829415,finish=1586175066130025817,duration=2196402,event=fix_etc_mavenrc[0Ktravis_time:start:0d828347[0Ktravis_time:end:0d828347:start=1586175066133756278,finish=1586175066136763343,duration=3007065,event=fix_wwdr_certificate[0Ktravis_time:start:294826e0[0Ktravis_time:end:294826e0:start=1586175066139713679,finish=1586175066160527163,duration=20813484,event=put_localhost_first[0Ktravis_time:start:186c4680[0Ktravis_time:end:186c4680:start=1586175066164415987,finish=1586175066166940443,duration=2524456,event=home_paths[0Ktravis_time:start:0049180e[0Ktravis_time:end:0049180e:start=1586175066170721122,finish=1586175066180790636,duration=10069514,event=disable_initramfs[0Ktravis_time:start:1c002a7d[0Ktravis_time:end:1c002a7d:start=1586175066183988549,finish=1586175066369245263,duration=185256714,event=disable_ssh_roaming[0Ktravis_time:start:1f68b400[0Ktravis_time:end:1f68b400:start=1586175066373065992,finish=1586175066375558699,duration=2492707,event=debug_tools[0Ktravis_time:start:03e821eb[0Ktravis_time:end:03e821eb:start=1586175066379265294,finish=1586175066382341875,duration=3076581,event=uninstall_oclint[0Ktravis_time:start:11f1d3eb[0Ktravis_time:end:11f1d3eb:start=1586175066385835364,finish=1586175066388819674,duration=2984310,event=rvm_use[0Ktravis_time:start:32de0948[0Ktravis_time:end:32de0948:start=1586175066392984315,finish=1586175066400489024,duration=7504709,event=rm_etc_boto_cfg[0Ktravis_time:start:0212176e[0Ktravis_time:end:0212176e:start=1586175066403552718,finish=1586175066405890573,duration=2337855,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0557eb71[0Ktravis_time:end:0557eb71:start=1586175066408890654,finish=1586175066497384759,duration=88494105,event=enable_i386[0Ktravis_time:start:30fe10a5[0Ktravis_time:end:30fe10a5:start=1586175066500880867,finish=1586175066506566016,duration=5685149,event=update_rubygems[0Ktravis_time:start:196b85b4[0Ktravis_time:end:196b85b4:start=1586175066510348215,finish=1586175067270700734,duration=760352519,event=ensure_path_components[0Ktravis_time:start:077aa04e[0Ktravis_time:end:077aa04e:start=1586175067275286075,finish=1586175067277652338,duration=2366263,event=redefine_curl[0Ktravis_time:start:1c76eff3[0Ktravis_time:end:1c76eff3:start=1586175067281674683,finish=1586175067359521850,duration=77847167,event=nonblock_pipe[0Ktravis_time:start:0f8fb894[0Ktravis_time:end:0f8fb894:start=1586175067363310318,finish=1586175073388823760,duration=6025513442,event=apt_get_update[0Ktravis_time:start:193d1196[0Ktravis_time:end:193d1196:start=1586175073392926810,finish=1586175073394909817,duration=1983007,event=deprecate_xcode_64[0Ktravis_time:start:121ed6a0[0Ktravis_time:end:121ed6a0:start=1586175073398374616,finish=1586175075780743098,duration=2382368482,event=update_heroku[0Ktravis_time:start:0a2ecdd7[0Ktravis_time:end:0a2ecdd7:start=1586175075784943776,finish=1586175075787273914,duration=2330138,event=shell_session_update[0Ktravis_time:start:1bfde637[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:1bfde637:start=1586175075790948010,finish=1586175077953489035,duration=2162541025,event=set_docker_mtu[0Ktravis_time:start:3982a610[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:3982a610:start=1586175077957226910,finish=1586175078012102633,duration=54875723,event=resolvconf[0Ktravis_time:start:00bf9dc0[0Ktravis_time:end:00bf9dc0:start=1586175078018040542,finish=1586175078137118831,duration=119078289,event=maven_central_mirror[0Ktravis_time:start:17f6a0ea[0Ktravis_time:end:17f6a0ea:start=1586175078140915080,finish=1586175078227552596,duration=86637516,event=maven_https[0Ktravis_time:start:008e7511[0Ktravis_time:end:008e7511:start=1586175078231124189,finish=1586175078233579231,duration=2455042,event=fix_ps4[0Ktravis_fold:start:install_chrome[0K$ export CHROME_SOURCE_URL=https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb
+[33;1mInstalling Google Chrome stable[0m
+travis_time:start:06b00956[0K$ wget --no-verbose -O /tmp/$(basename $CHROME_SOURCE_URL) $CHROME_SOURCE_URL
+2020-04-06 12:11:18 URL:https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb [63635666/63635666] -> "/tmp/google-chrome-stable_current_amd64.deb" [1]
+travis_time:end:06b00956:start=1586175078279976868,finish=1586175078620290355,duration=340313487,event=prepare[0K(Reading database ... 124189 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_current_amd64.deb ...
+Unpacking google-chrome-stable (80.0.3987.163-1) over (73.0.3683.86-1) ...
+Setting up google-chrome-stable (80.0.3987.163-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+travis_fold:end:install_chrome[0Ktravis_fold:start:install_firefox[0K[33;1mInstalling Firefox latest[0m
+$ export FIREFOX_SOURCE_URL='https://download.mozilla.org/?product=firefox-latest&lang=en-US&os=linux64'
+travis_time:start:149c4807[0K$ wget --no-verbose -O /tmp/firefox-latest.tar.bz2 $FIREFOX_SOURCE_URL
+2020-04-06 12:11:27 URL:https://download-installer.cdn.mozilla.net/pub/firefox/releases/74.0.1/linux-x86_64/en-US/firefox-74.0.1.tar.bz2 [66785590/66785590] -> "/tmp/firefox-latest.tar.bz2" [1]
+travis_time:end:149c4807:start=1586175085990776990,finish=1586175087057066146,duration=1066289156,event=prepare[0K$ export PATH=${TRAVIS_HOME}/firefox-latest/firefox:$PATH
+travis_fold:end:install_firefox[0K$ firefox --version
+Mozilla Firefox 74.0.1
+travis_time:start:06e699af[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:2b7a0604[0K$ git clone --depth=50 https://github.com/cloudinary/wdio-allure-ts.git cloudinary/wdio-allure-ts
+Cloning into 'cloudinary/wdio-allure-ts'...
+travis_time:end:2b7a0604:start=1586175095249172053,finish=1586175095893465484,duration=644293431,event=checkout[0K$ cd cloudinary/wdio-allure-ts
+travis_time:start:0ac7088c[0K$ git fetch origin +refs/pull/146/merge:
+From https://github.com/cloudinary/wdio-allure-ts
+ * branch            refs/pull/146/merge -> FETCH_HEAD
+travis_time:end:0ac7088c:start=1586175095897347274,finish=1586175096382075648,duration=484728374,event=checkout[0K$ git checkout -qf FETCH_HEAD
+travis_fold:end:git.checkout[0K
+travis_time:end:0ac7088c:start=1586175095897347274,finish=1586175096391526123,duration=494178849,event=checkout[0Ktravis_time:start:282f6651[0K
+[33;1mSetting environment variables from repository settings[0m
+$ export NPM_SECRET_KEY=[secure]
+$ export NPM_EMAIL=[secure]
+
+travis_time:end:282f6651:start=1586175096395076535,finish=1586175096402073493,duration=6996958,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:04b2f230[0K$ nvm install 9
+Downloading and installing node v9.11.2...
+Downloading https://nodejs.org/dist/v9.11.2/node-v9.11.2-linux-x64.tar.xz...
+curl: (22) The requested URL returned error: 522 
+Binary download from https://nodejs.org/dist/v9.11.2/node-v9.11.2-linux-x64.tar.xz failed, trying source.
+grep: /home/travis/.nvm/.cache/bin/node-v9.11.2-linux-x64/node-v9.11.2-linux-x64.tar.xz: No such file or directory
+Provided file to checksum does not exist.
+Binary download failed, trying source.
+Detected that you have 2 CPU core(s)
+Number of CPU core(s) less than or equal to 2, running in single-threaded mode
+Clang v3.5+ detected! CC or CXX not specified, will use Clang as C/C++ compiler!
+Downloading https://nodejs.org/dist/v9.11.2/node-v9.11.2.tar.xz...
+curl: (56) GnuTLS recv error (-110): The TLS connection was non-properly terminated.
+Binary download from https://nodejs.org/dist/v9.11.2/node-v9.11.2.tar.xz failed, trying source.
+grep: /home/travis/.nvm/.cache/src/node-v9.11.2/node-v9.11.2.tar.xz: No such file or directory
+Provided file to checksum does not exist.
+travis_time:end:04b2f230:start=1586175096902988919,finish=1586175300813231960,duration=203910243041,event=setup[0K[31;1mFailed to install 9. Remote repository may not be reachable.[0m
+Using locally available version 9, if applicable.
+$ nvm use 9
+N/A: version "9 -> N/A" is not yet installed.
+
+You need to run "nvm install 9" to install it before using it.
+[31;1mUnable to use 9[0m
+[31;1mThe command "false" failed and exited with 1 during .[0m
+
+Your build has been stopped.
